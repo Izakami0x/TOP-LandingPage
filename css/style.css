@@ -35,7 +35,7 @@ a{
 .header, .container, .information{
     margin: 0 20vw 20px 20vw;
   padding-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .header{
@@ -100,4 +100,34 @@ button{
   justify-content: center;
   gap: 30px;
   width: 200px;
+}
+.quotes {
+  background-color: #e5e7eb;
+  padding: 50px 0 0 0 ;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container.quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.auth{
+  font-size: 18px;
+font-style: normal;
+  font-weight: 900; 
+  color: #1f2937;
+}
+
+.container.quote {
+  display: flex;
+ flex-direction: column;
+margin-bottom: 15;
+}
+
+.auth{
+  align-self: self-end;
 }
