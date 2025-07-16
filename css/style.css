@@ -61,6 +61,10 @@ img {
   height: 150px;
 }
 
+.left{
+  display: flex;
+  flex-direction: column;
+}
 .container{
   display: flex;
   justify-content: space-between;
@@ -107,7 +111,7 @@ button{
   margin-bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .container.quote{
   font-size: 36px;
@@ -130,4 +134,47 @@ margin-bottom: 15;
 
 .auth{
   align-self: self-end;
+}
+.call-to-action{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 70px;
+}
+.cont{
+  width: 73%;
+  height: 170px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 20px;
+gap: 10px;
+}
+.cta-button{
+  /* gap: 10px; */
+  width: 150px;
+  height: 40px;
+  border-color: #f9faf8;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+.cta-head{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.cta-sub{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+}
+.copyright{
+  color: #e5e7eb;
 }
